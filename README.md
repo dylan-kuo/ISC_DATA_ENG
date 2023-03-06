@@ -77,3 +77,67 @@
 
 ## Exercise 2: Software Design/Coding
 &nbsp;
+
+### How to Run?
+1. Clone this project from the repository
+2. Navigate to the root directory of the project 
+    ```
+    cd <path_to_your_directory/ISCD_DATA_ENG>
+    ```
+3. Run the commmand to start the CLI
+
+   Version 1 - Basic
+   ```
+   python VendingMachine.py
+
+   # And then you can begin the interaction (CLI)
+   ```
+
+   Version 2 - Advanced (Server/Client Architecture)
+   ```
+   # 1. open one terminal window for server side code
+
+   python VendingMachineServer.py
+
+   # 2. open another terminal window for the client side code.
+
+   python VendingMachineClient.py
+
+   # 3. And then you can begin the interaction on the client side terminal (CLI)
+
+   ```
+
+    Note: Please make sure the you're using python 3.6+
+
+&nbsp;
+
+### Architecture and Tradeoffs
+
+This is the basic version of implementation of the vending machine that only implements the operation (eg, view items, view balance, add money, , purchase item, and view help prompt). 
+
+I also make it more advanced by implementing a simple client-server architecture. The server will hold the state of the vending machine, including the available items, prices, and the balance of the user. The client, in this case, the CLI, will interact with the server to display the available itemes, purchase items, make changes on the purchase, and add money.
+
+
+I chose this architecture because it allows for a better separation. The server side will handles the business logic, and the client side will handle user interaction. This architecture allows for future extensibility, for example, a GUI client can be developed to interface with the server.
+
+
+### Notable Explanation
+I created a "VendingMachine" class on the server-side to manage the state of the machine. It only implments the very basic functions. All the data (eg, items, prices, balances) are stored in the memory. However, in the furture I can use a database such as sqlite or postres to store them.
+
+In addition, the dispensing process is not completed yet. The vending machine should dispense any change owed to the customer if the balance exceeds the purchase price.
+
+
+
+### Completion Status
+Completed:
+-  Displaying available items and their prices.
+-  Adding money to the machine.
+-  Purchasing items.
+-  Allowing customers to change their selection if they change their mind before purchase is completed.
+
+Uncompleted:
+- Dispensing change owed to the customer.
+- Allowing customers to purchase multiple items at once.
+- Providing option to pay in boin, bills, or credit cards.
+
+  
