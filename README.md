@@ -114,7 +114,7 @@
 
 &nbsp;
 
-<img src="./vendingMachine.gif" width="1200" height="200"/>
+<img src="./vendingMachine.gif" width="1200" height="420"/>
 
 &nbsp;
 
