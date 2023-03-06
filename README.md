@@ -3,6 +3,8 @@
 ## Exercise 1: Data Modeling/SQL
 &nbsp;
 
+![alt text](https://github.com/dylan-kuo/ISC_DATA_ENG/blob/main/Elevator%20System%20-%20Database%20ER%20diagram.jpeg)
+
 ### a. Design Considerations
 - Building: The building where the elevators belong to. It consists of building_id (primary key), building_name, and the address. 
 
