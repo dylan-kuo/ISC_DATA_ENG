@@ -24,6 +24,7 @@
 - The direction of the elevator (i.e., up or down) is not recorded. It can be inferred from the start and end floors.
 
 - The elevator is assumed to have no capacity limitation, and the number of passengers on the same elevator is not recorded.
+  
 
 ### Sql Queries for Metrics
 
@@ -114,6 +115,7 @@
 &nbsp;
 
 ![screen-gif](./vendingMachine.gif)
+<img src="./vendingMachine.gif" width="1200" height="300"/>
 
 &nbsp;
 
