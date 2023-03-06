@@ -114,8 +114,7 @@
 
 &nbsp;
 
-![screen-gif](./vendingMachine.gif)
-<img src="./vendingMachine.gif" width="1200" height="300"/>
+<img src="./vendingMachine.gif" width="1200" height="200"/>
 
 &nbsp;
 
